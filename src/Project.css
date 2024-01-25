@@ -1,0 +1,574 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 40px;
+}
+img{
+    width: 23vh;
+    height: 8vh;
+}
+.bgimage{
+    height: 100vh;
+    background-image: url("Asserts/Slider Section/krakenimages-376KN_ISplE-unsplash\ 2_516_4746.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+.input{
+    width: 200vh;
+    padding: 10px;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:white;
+    width: 60%;
+    padding: 10px;
+    align-items: center;
+    border-radius: 30px;
+    border-color: black;
+    
+}
+#button{
+    width: 160px;
+    border: none;
+    padding:10px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    transition: background-color 2s;
+}
+#button:hover{
+    background-color: black;
+}
+.a a{
+    text-decoration: none;
+    color: white;
+}
+.a i{
+    color: white;
+    padding: 2px;
+}
+.a a:hover{
+    color: coral;
+}
+#i{
+    margin-left: 10px;
+}
+.nav option{
+    color: black;
+}
+.nav select{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+.nav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px
+}
+.nav a:hover{
+    color: lightsteelblue;
+}
+.h1{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 15vh;
+}
+.h1 p{
+    font-family: none;
+    margin-top: 20px;
+}
+.browse{
+    display: flex;
+    justify-content:center;
+    margin-top: 7vh;
+}
+.browse button{
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+}
+.browse1{
+    border: none;
+}
+.browse1:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.browse2{
+    margin-left: 20px;
+    background-color:transparent;
+    color: white;
+    border:1px solid white;
+}
+.browse2:hover{
+    background-color: white;
+    color: black;
+}
+.why{
+    background-image: url("Asserts/Why Should you trust/Rectangle\ 2_522_3234.png");
+    height: 100vh;
+    background-size: cover;
+}
+.wise{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20vh;
+}
+.wise h4{
+    color: red;
+}
+.box5{
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    background-color: white;
+    width: 35vh;
+    height: 35vh;
+    border-radius: 25px;
+    transition: background-color 2s,color 2s;
+}
+.box1:hover{
+    background-color: darkslategrey;
+    color: white;
+    box-shadow: 5px solid black;
+}
+.box1 img{
+    margin-top: 20px;
+    width: 15vh;
+    height: 10vh;
+}
+.lorem{
+    color: rgb(147, 142, 142);
+    margin-top: 15px;
+    font-size:small;
+}
+.browser{
+    margin-top: 50px;
+    margin-left: 4vh;
+    margin-right: 4vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.browser a{
+    color: black;
+}
+.browser a:hover{
+    color: darkmagenta;
+}
+.allwheels{
+    margin-top: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.wheel1{
+    border: 1px solid rgb(241, 236, 236);
+    filter: drop-shadow(5px 5px 6px rgb(213, 214, 216));
+    background-color: white;
+    height: 22vh;
+    width: 18vh;
+    border-radius: 6px;
+}
+.wheel1 img{
+    width: 10vh;
+    height: 10vh;
+    margin-top: 20px;
+}
+.wheel1 p{
+    margin-top: 6px;
+    font-size: x-small;
+}
+.products{
+    color: lightslategray;
+}
+.wheel2{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.wheel3{
+    margin-top: 15px;
+    display: grid;
+    align-items: center;
+    background-color: white;
+    width: 18vh;
+    height: 18vh;
+    border-radius:50%;
+    border: 1px solid rgb(241, 236, 236);
+    filter: drop-shadow(5px 5px 6px rgb(213, 214, 216));
+}
+.wheel3 b{
+    font-size: 6vh;
+    font-family: fantasy;
+    color: black;
+}
+.wheel3 a{
+    font-size: small;
+    text-decoration: none;
+    color: black;
+}
+.cuttings{
+    background-image: url("Asserts/Auto Mobiles/Support\ Solution\ Bg_530_4527.png");
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+}
+.brow a{
+    color: black;
+}
+.brow a:hover{
+    color: darkmagenta;
+}
+.brow{
+    padding-top: 15vh;
+    margin-top: 50px;
+    margin-left: 4vh;
+    margin-right: 4vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Rating{
+    border: 1px solid rgb(233, 229, 229);
+    filter: drop-shadow(2px 2px 2px rgb(227, 228, 230));
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    padding-right: 10px;
+    width: 38vh;
+    height: 16vh;
+    display: flex;
+}
+.Rating img{
+    width: 10vh;
+    height: 10vh;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.Rating p{
+    margin-top: 4px;
+    font-size: x-small;
+}
+.stars{
+    margin-left: 17px;
+    margin-top: 17px;
+}
+.stars i{
+    font-size: 8px;
+    letter-spacing: 2px;
+    color: rgb(209, 209, 209);
+}
+.number{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 3px;
+}
+#starcolor{
+    color: orange;
+}
+.allratings{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bro{
+    padding-top: 5vh;
+    margin-top: 5px;
+    margin-left: 4vh;
+    margin-right: 4vh;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.creamcolor{
+    margin-top: 10vh;
+    background-color: rgb(251, 244, 227);
+    height: 35vh;
+    width: 100%;
+}
+.cream1{
+    background-color:  rgb(255, 236, 184);
+    width: 50vh;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: background-color 2s,color 2s;
+}
+.cream1:hover{
+    background-color: black;
+    color: white;
+}
+.supercharge p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 5vh;
+    color: rgb(85, 85, 85);
+}
+.supercharge h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(57, 57, 58);
+}
+.cust1{
+    width:68vh;
+}
+.cust1 h2{
+    line-height: 30px;
+}
+.cust1 p{
+    line-height: 20px;
+}
+.cust1 button{
+    background-color: rgb(48, 46, 46);
+    color: white;
+    border-radius: 50px;
+    padding: 15px 25px 15px 25px;
+    font-size: x-small;
+}
+.cust1 button:hover{
+    background-color: darkslateblue;
+    color:lightgoldenrodyellow
+}
+.cust1 img{
+    width: 10vh;
+    height: 10vh;
+}
+.cust2 img{
+    width:80vh;
+    height:40vh;
+}
+.custsupport{
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.cust3 img{
+    width:80vh;
+    height:60vh;
+}
+.cust4 img{
+    width:90vh;
+    height:60vh;
+}
+.lastclass{
+    background-image:url("Asserts/Why Should you trust/Rectangle\ 2_522_3234.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+}
+.top button{
+    background-color: rgb(255, 247, 215);
+    color: orangered;
+    border-radius: 20px;
+    border:none;
+    padding: 10px 30px;
+}
+.top p,h2{
+    font-size: 40px;
+}
+.submitticket{
+    margin-top: 50px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 60vh;
+    height: 15vh;
+    padding: 40px;
+}
+.emailus{
+    margin-top: 0vh;
+}
+.submitticket p{
+    font-size: large;
+}
+.callus{
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 60vh;
+    padding: 40px;
+    justify-content: space-between;
+}
+.callus a{
+    text-decoration: none;
+    color: black;
+}
+.callus:hover{
+    background-color: darkgray;
+}
+.button{
+    float: right;
+}
+.button button{
+    background-color: black;
+    color: white;
+    padding: 30px 50px;
+    border: none;
+    border-radius: 50px;
+}
+.button button:hover{
+    background-color: darkslateblue;
+    border: dotted;
+}
+#watchbutton{
+    background-color: aliceblue;
+    padding: 30px 50px;
+    border: none;
+    color: black;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+#watchbutton:hover{
+    background-color: lightgoldenrodyellow;
+    border: double;
+}
+.lastimg{
+    margin-top: 15vh;
+}
+.lastimg img{
+    width: 90vh;
+    height: 70vh;
+}
+.watchvedios{
+    margin-top: 25px;
+}
+#greater{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+hr{
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    width: 75%;
+}
+.linebelow b{
+    color: black;
+}
+.p{
+    font-size: 5vh;
+    color: rgb(88,87,87);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+article{
+    font-size: larger;
+    color: rgb(88, 87, 87);
+    line-height: 23px;
+}
+.lastimages{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 35vh 30vh 45vh 40vh;
+    justify-content: center;
+}
+.lastimages img{
+    width: 140px;
+    height: 170px;
+}
+.lastimages .g2:hover{
+    filter: drop-shadow(0px 2px 2px black);
+}
+.lastimages .g1{
+    width: 180px;
+    height: 160px;
+}
+.lastimages .g1:hover{
+    filter: drop-shadow(0px 1px 0px  rgb(66, 65, 65));
+}
+.lastimages .g4{
+    width: 330px;
+    height: 100px;
+    margin-top: 20px;
+}
+.lastimages .g4:hover{
+    filter: drop-shadow(0px 1px 0px  rgb(66, 65, 65));
+}
+.lastp{
+    margin-top: 10vh;
+    font-size: 3vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer{
+    background-image:url("Asserts/Why Should you trust/Rectangle\ 2_522_3234.png");
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+.foot1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10vh;
+}
+.line hr{
+    transform: rotate(90deg);
+    width: 30vh;
+}
+.atag a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.atag a:hover{
+    color: rgb(40, 100, 129);
+}
+.playstoreimg img{
+    width: 100%;
+}
+.playstoreimg img:hover{
+    filter: drop-shadow(4px 5px 7px darkslateblue);
+}
+.reachus a{
+    font-size: 40px;
+    text-decoration: none;
+}
+.twitter{
+    color: blue;
+}
+.insta{
+    color: orangered;
+    margin-left: 20px;
+}
+.fb{
+    color: blue;
+    margin-left: 20px;
+}
+.twitter:hover{
+    filter: drop-shadow(3px 3px 3px black);
+}
+.insta:hover{
+    filter: drop-shadow(0px 2px 1px black);
+}
+.fb:hover{
+    filter: drop-shadow(0px 2px 1px black);
+}
+.copyright{
+    margin: 10vh 50px;
+}
+.copyright a{
+    text-decoration: none;
+    color: black;
+}
+.copyright a:hover{
+    color:rgb(40, 100, 129);
+    text-decoration: underline;
+}
